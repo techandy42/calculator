@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/oswald-stenbab" type="text/css"/>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+    crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="calculator">
+      <textarea id="screen" rows="4" cols="20" style="resize:none" readonly></textarea><br>
+      <input type="button" class="center" id="reset" value="reset" onclick="reset()"><br>
+      <input type="button" class="top" id="backarrow" value="←" onclick="backarrow()">
+      <input type="button" class="top" id="leftBracket" value="(" onclick="leftBracket()">
+      <input type="button" class="top" id="rightBracket" value=")" onclick="rightBracket()">
+      <input type="button" class="right" id="pow" value="^" onclick="pow()"><br>
+      <input type="button" class="center" id="seven" value="7" onclick="seven()">
+      <input type="button" class="center" id="eight" value="8" onclick="eight()">
+      <input type="button" class="center" id="nine" value="9" onclick="nine()">
+      <input type="button" class="right" id="div" value="÷" onclick="div()"><br>
+      <input type="button" class="center" id="four" value="4" onclick="four()">
+      <input type="button" class="center" id="five" value="5" onclick="five()">
+      <input type="button" class="center" id="six" value="6" onclick="six()">
+      <input type="button" class="right" id="mul" value="x" onclick="mul()"><br>
+      <input type="button" class="center" id="one" value="1" onclick="one()">
+      <input type="button" class="center" id="two" value="2" onclick="two()">
+      <input type="button" class="center" id="three" value="3" onclick="three()">
+      <input type="button" class="right" id="sub" value="-" onclick="sub()"><br>
+      <input type="button" class="center" id="zero" value="0" onclick="zero()">
+      <input type="button" class="center" id="point" value="." onclick="point()">
+      <input type="button" class="center" id="equals" value="=" onclick="equals()">
+      <input type="button" class="right" id="add" value="+" onclick="add()">
+    </div>
+  </body>
+  <script src="calculator.js"></script>
+</html>

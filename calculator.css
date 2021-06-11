@@ -1,0 +1,61 @@
+body,html {
+  height: 100%;
+  display: grid;
+}
+
+body {
+  background: linear-gradient(45deg,#228b22,#24aadb,#27dbb1);
+  background-size: 300% 100%;
+}
+
+.calculator {
+  margin: auto;
+  border: 4px solid #0F1010;
+  padding: 32px 16px;
+  border-radius: 4%;
+  background-color: #2C2D30;
+  box-shadow: 0px 4px #0A0A0A;
+}
+
+input {
+  width: 80px;
+  height: 40px;
+  margin: 2px;
+  font-size: 26px;
+  font-family: 'OswaldStencbab';
+  font-weight: normal;
+  font-style: normal;
+  border: 0px white solid;
+  border-radius: 4%;
+}
+
+.center {
+  background: #E6E5D2;
+  box-shadow: 0px 2px #BEBDA6;
+}
+
+.top {
+  background: #BEBDA6;
+  box-shadow: 0px 2px #9E987F;
+}
+
+.right {
+  background: #E7BB07;
+  box-shadow: 0px 2px #AB8B0B;
+}
+
+#reset {
+  background: #42CD2C;
+  margin-bottom: 8px;
+  box-shadow: 0px 2px #1A8C02;
+}
+
+textarea {
+  width: 340px;
+  height: 80px;
+  font-size: 24px;
+  margin-bottom: 8px;
+  border: 4px solid #0F1010;
+  border-radius: 2%;
+  box-shadow: 0px 1px #0A0A0A;
+}

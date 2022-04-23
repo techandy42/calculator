@@ -9,4 +9,5 @@ This is a calculator app that supports basic artihmetics and brackets. The app i
 > Technologies
 
 * Javascript
+* JQuery
 * CSS
